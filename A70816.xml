@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Platforme of the Presbyterian government with the forme of Church-vvorship and the particulars of the manner and order therof : according to the word of God and practice of our brethren of the Church of Scotland.</title>
+         </titleStmt>
+         <extent>Approx. 75KB of XML-encoded text transcribed from 14 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A70816</idno><idno type="EEBO-CITATION">11926490</idno>
+  <idno type="VID">51043</idno>
+  <idno type="EEBO-PROQUEST">2240855750</idno>
+  
+            <idno type="STC">Wing P2401</idno>
+            <idno type="STC">ESTC R15901</idno>
+            <idno type="OCLC">11926490</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. A70816)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 51043)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 232:E21, no 39)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Platforme of the Presbyterian government with the forme of Church-vvorship and the particulars of the manner and order therof : according to the word of God and practice of our brethren of the Church of Scotland.</title>
+               </titleStmt>
+               <extent>[4], 24 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by R. Austin ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1644.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Thomason Collection, British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="corporate_name">Church of Scotland --  Discipline.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-07 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-09 </date>
+            <label>Olivia Bottum </label>Sampled and proofread </change>
+         <change>
+            <date>2014-09 </date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="illustration">
+            <pb facs="tcp:51043:1"/>
+            <p>
+               <figure>
+                  <p>C R</p>
+                  <p>HONI SOIT QVI MAL Y PENSE</p>
+               </figure>
+            </p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:51043:1"/>
+            <p>THE PLATFORME OF THE Presbyterian Government: WITH The Forme of Church-VVorship, AND The Particulars of the Manner and Order thereof: ACCORDING To the Word of GOD, and Practice of our Brethren OF The Church of SCOTLAND.</p>
+            <p>Published by Authority.</p>
+            <p>
+               <hi>LONDON, Printed by</hi> R. Austin, <hi>in the Old-Baily.</hi> 1644.</p>
+         </div>
+      </front>
+      <body>
+         <div type="part">
+            <pb facs="tcp:51043:2"/>
+            <pb n="1" facs="tcp:51043:2"/>
+            <head>Of Church-Officers.</head>
+            <p>
+               <seg rend="decorInit">T</seg>He ordinary and perpetuall Officers of the Church are <hi>Pastors, Elders,</hi> and <hi>Deacons,</hi> warranted by Christ, and his Apostles, the extraordinary Ministers, unto whom his will was revealed, b<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing sufficient for all the necessary uses of the Church, as Ex<g ref="char:EOLhyphen"/>hortation, Teaching, Administration of the Sacrmaents, Go<g ref="char:EOLhyphen"/>vernment, and Distribution.</p>
+            <p>The Offices of Apostles, Evangelists and Prophets were extraordinary, and continued in the Christian Church, so long as (by the will of God) it was need<g ref="char:EOLhyphen"/>full for the weale of the Church; who although in regard of their Order. De<g ref="char:EOLhyphen"/>gree, and manner of Ministration, and the places which they did hold, which is called <hi>successio in gradum eundem;</hi> they have properly none to succeed them: yet in respect of their doctrine, holinesse of life, and substance of thei<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Ministe<g ref="char:EOLhyphen"/>rie, which is <hi>successio in caput,</hi> all faithfull Pastors, lawfully called to their fun<g ref="char:EOLhyphen"/>ctions, are their successours; and in this sense, not onely the first Reformers, who had somwhat extraordinary, but all faithfull Ministers since, who have la<g ref="char:EOLhyphen"/>boured in the Word and Doctrine, for the planting, preserving, and purging of Religion, to the edification of the Church, and no other, are successours to the Apostles. The Office of a Bishop, consisting in power or priority above a Pa<g ref="char:EOLhyphen"/>stor, as having no warrant in the Scripture, as being a Member of the wicked Hierarchie of the Pope (for, although this priority of Prelates had place in the Church before the Pope ascended to the top of his Ambition; yet every corrup<g ref="char:EOLhyphen"/>tion in Doctrine, Worship, but especially in Government, which, since the my<g ref="char:EOLhyphen"/>sterie of iniquity began to work, is retained by the Pope, and by his authority is obtruded upon the Church) and as a cursed tree, which hath brought forth no better fruits, then heresie, and errours in Doctrine, idolatry and superstition in Worship, tyrannie and persecution in Government, and lewdnesse and profanity of life, both in Pastors and People; are now abjured, and removed out of the Church, together with all the Offices, Titles, Dignities, and Courts, depending thereupon.</p>
+         </div>
+         <div type="part">
+            <head>Of the calling of Church-Officers.</head>
+            <p>AS no man ought to presume to enter into any office Ecclesiasticall without an inward calling from God, who only discerneth the intentions, and desires of the heart, whether they be earthly or heavenly, whether they be set upon the glory of God, and edifying of the Church, or upon the means of this life; So
+<pb n="2" facs="tcp:51043:3"/> none are to be admitted without the approbation and judgement of men, accor<g ref="char:EOLhyphen"/>ding to the rules of the Word, and the received order of the Church.</p>
+            <p>This outward calling of the Officers of the Church doth consist in Election and Ordination, after due triall and examination of their soundnesse in religion, and godlinesse of life: For the better understanding of the order of the calling of Ministers, it is to be considered,</p>
+            <p>That in every one almost of the <hi>Classes,</hi> or great Presbyteries, there be Stu<g ref="char:EOLhyphen"/>dents of Divinity; wherefore some, if they have opportunity of their Studies, make their abode within the bounds of the Presbytery, and attend the meetings thereof: Others, who are the greater part, stay at the Vniversities, and in the time of vocation come home and wait upon the Presbytery.</p>
+            <p>The abilities of both the one sort and the other, are to be tried in private, be<g ref="char:EOLhyphen"/>fore the Presbytery, and how soon they are found fit to come in publike, to en<g ref="char:EOLhyphen"/>ter upon the exercise or prophecy with the Ministers of the Presbyrety, and at somtimes employed and allowed to preach before the people: By which means their gifts and abilities are knowne to the people, as their manners are manifest by their conversing amongst them.</p>
+            <p>Out of the number of these Proposants, or (as you may call them) <hi>Expe<g ref="char:EOLhyphen"/>ctants,</hi> the Pastor is to be nominated to the vacant place by the Eldership, and by the Minister, if any be, with the consent and good liking of the people, and if they can pitch upon none within the bounds of their own Presbytery, to have their liberty to make their choice of an <hi>Expectant</hi> of good esteem and report in some oth<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r Presbyterie.</p>
+            <p>The Person thus knowne and nominated, is by the particular Eldership, to be named to the greater Presb<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>terie, and there examined of his skill in the Langua<g ref="char:EOLhyphen"/>ges, <hi>L<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tin<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, Greeke,</hi> and <hi>Hebrew,</hi> in his interpreting of Scripture, in the contro<g ref="char:EOLhyphen"/>versi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s of R<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ligion, in his gi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t of exhortation, in the <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oly and Ecclesi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>stic<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll Hi<g ref="char:EOLhyphen"/>storie and Chronologie; And first of all Of his life and manner of conversation; wher<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>in if he be found vitious or scandalous, he is not to be admitted to any o<g ref="char:EOLhyphen"/>ther examination.</p>
+            <p>After the people have heard him, some Minister of the Presbyterie is to be ap<g ref="char:EOLhyphen"/>pointe<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to preac<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to that people of the necessity of the Ministerie, of the excel<g ref="char:EOLhyphen"/>lency of a <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aithfull Minist<gap reason="illegible" resp="#keyers" extent="2 letters">
+                  <desc>••</desc>
+               </gap>, of the qualities of a Minister, and of the obedience due to the Gospell, or of some suc<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Theme: And at the same time a publike E<g ref="char:EOLhyphen"/>dict must be served, That if any person or persons, have any thing to object a<g ref="char:EOLhyphen"/>gainst the literature, doctrine, or life of such a man, why he may not be a profi<g ref="char:EOLhyphen"/>table Minister of such a Congregation, They shall appeare before the Presbyte<g ref="char:EOLhyphen"/>rie in such a place, &amp; at such a time, that their objections may be tried &amp; discussed.</p>
+            <p>Vpon the day appointed, the Doore-keeper of the Presbyterian meeting is to call three severall times, if there be any thing to object against the person nomi<g ref="char:EOLhyphen"/>nated,
+<pb n="3" facs="tcp:51043:3"/> and if any thing be alledged against him by any of that particular flock, or any other to whom he is known, it is duly and equally to be pondered by the Presbyterie, and if it be found to have any weight, or the case be doubtfull, the Ordination is suspended to a more perfect triall; otherwise, if there be nothing but silence, to proceed.</p>
+            <p>So that by this means no man is obtruded upon the people, against their open or tacite consent and approbation, or without the voices of the particular Elder<g ref="char:EOLhyphen"/>ship, with whom he is to serve in the Ministerie. But if the person nominated be a Pastor of some other flock, and his faithfulnesse known in his former charge, this Processe is spared, and his Translation more speedily expedited, if there be no impediments of another kind.</p>
+            <p>Vpon the day appointed for accomplishing his election, and for his Ordinati<g ref="char:EOLhyphen"/>on, which is in due time to be made known to the Congregation, and agreed up<g ref="char:EOLhyphen"/>on by them, a Fast ought to be ordained to be kept, with more then ordinary supplication, for the assistance and blessing of God, in a worke of so great con<g ref="char:EOLhyphen"/>cernment: and one of the Pastors of the Presbyterie is appointed to preach to that people, of the mutuall duties of Pastor and People: all which being done, the party (during the time of the exercise of publike Worship sitting in some conspicuous place before the Pulpit with the Elders, and some Ministers of the Presbyterie) is to be called and demanded concerning his willingnesse and desire to serve the Lord Jesus, for the good of that people; with other questions of that kind: and the people also are to be demanded, whether they will receive him for their Pastor, and submit themselves unto his Ministerie in the Lord. Both having declared their readinesse and mutuall consent, the Minister coming from the Pulpit, with so many Ministers present as may conveniently come neare, lay their hands upon his head, and in the Name of Jesus appoint him to be Pastor of that People, praying that from Jesus Christ, who is at the right hand of the Fa<g ref="char:EOLhyphen"/>ther, and giveth gifts unto men, he may finde the demonstration of the Spirit, and the power and blessing of God in his Ministerie, to the comfort of that People: after which, the whole Eldership give unto him the right hand of fel<g ref="char:EOLhyphen"/>lowship. Last of all, the Minister going to the Pulpit, is to conclude with per<g ref="char:EOLhyphen"/>tinent thanksgiving and prayers, and a Psalme being sung, the Assembly dismissed with a Blessing.</p>
+            <p>The Congregation, where he who is presented is to serve, is called, if they have ought to object against his Doctrine or life, after they have heard him, or that their consent may be had: and if he be found <hi>Reus ambitus,</hi> or to have gone about to procure a presentation, he is to be repelled, and declared incapable of that place. No Pastor may thrust himselfe upon a flock, nor after his entry, desert his charge, or remove himselfe to another Congregation at his own pleasure. The deserters, if any be, are appointed to be admonished, and in case of obstinacie, to
+<pb n="4" facs="tcp:51043:4"/> be excommunicated. If a Mintster, upon lawfull and urgent causes, desire to re<g ref="char:EOLhyphen"/>move from one Congregation to another; or if a Minister be called from one Congregation to another, for which he is more fit, or be called forth upon grave considerations, for some publike imployment, tending to the common benefit of the Church; this is not done by private transaction, and particular agreement, of Ministers and Congregations, but by the wisedome and authority of the Pres<g ref="char:EOLhyphen"/>byteries or Assemblies of the Church; nor is it done by them, but upon such reasons as should move that Church, wherein for the present he administreth, to give <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er consent: for whose supply also, either a convenient course is present<g ref="char:EOLhyphen"/>ly taken, or the way of supply is seen to be easie.</p>
+            <p>The Minister thus removed from one Church to another, receiveth no new Ordination, but by vertue of his first Ordination serveth in the place, unto which he is called and elected: Only at his admission one of the Presbyterie, who is appointed to preach of the dutie of Pastors and people, and to pray for a blessing, recommendeth him to the Congregation, who have before declared their willingnesse and desire to receive him, and the Congregation to his care and fidelity; and the Pastor, if any be, together with the Elders, with whom he is to sit before the Pulpit, take him by the hand. Pastors and Ministers of the Word, through old age, sicknesse or other infirmitie being disabled to beare the weight, and discharge the dutie of their Pastorall charge, do notwithstanding still retaine the honour of their office, and comfort of mai<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tenance during their life time: And they performing what they are able, in teaching, government, visitation and catechising, others are joyned with them by the Presbyterie, with with the consent of the people, to be their f<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>llow-labourers, and to undergo charge.</p>
+            <p>The same course of election and admission for substance, and in forme accor<g ref="char:EOLhyphen"/>ding to the nature of their office, is observed in the calling other Officers, as <hi>Ruling Elders,</hi> and <hi>Deacons:</hi> at the beginning, and where there be none, the Pastor, with the gravest, holiest, and those of the soundest judgement, and best affection to Religion, do choose them with the consent of the rest of the people. And where particular Elderships are already constitue, the Pastor and Elders who are in office, do choose such as are to succeed those who are removed by death, or any other way, or by vicissitude are to relieve such as are in place; and that the election of one or more at first, or afterward may proceed with the consent of the people, their names are to be published and made knowne to the Congregation by the Pastors, that if ought may be objected against any of them, why they may not be received to the office of an <hi>Elder</hi> or <hi>Deacon,</hi> it may be examined; and, if it be found important, others may be chosen. When the day of their admission cometh, the Pastor having fram'd his Doctrine to the purpose, cals them up, and remembring both them of their dutie in their charge,
+<pb n="5" facs="tcp:51043:4"/> and the people of their submitting themselves unto them, they are to be solemn<g ref="char:EOLhyphen"/>ly received, with lifted up hands, giving their promises to be faithfull.</p>
+         </div>
+         <div type="part">
+            <head>The duties of Church-Officers: and first of the Pastors duty.</head>
+            <div type="section">
+               <head>The Order to be kept in preaching the Word.</head>
+               <p>THe Pastor is bound to teach the Word of God, in season and out of season, and beside all occasionall and week-day Sermons, the Congregation ought to assemble twice on the Lords day; and for this end notice is to be given of the time by the sound of a Bell. When so many of all sorts, men and women, ma<g ref="char:EOLhyphen"/>sters and servants, young and old, as shall meet together, are assembled, the pub<g ref="char:EOLhyphen"/>like Worship is to begin with prayer, and reading some portion of holy Scrip<g ref="char:EOLhyphen"/>tures, both of the Old and New Testament, which the people are to hear with attention and reverence; and after reading, the whole Congregation are to joyn in some Psalme, which reading and singing is to continue till the Preaching be<g ref="char:EOLhyphen"/>gin; at which time the Minister having prefaced a little for quickening and lift<g ref="char:EOLhyphen"/>ing up the hearts of the people, is first to make a prayer for remission of sin, san<g ref="char:EOLhyphen"/>ctification, and all things needfull, joyning also confession of sins, and thanksgi<g ref="char:EOLhyphen"/>ving, with speciall relation to the hearers: after which, in the forenoone is an<g ref="char:EOLhyphen"/>other Psalme, and after the Psalme a prayer for a blessing upon the preaching of the Word. His Text is ordinarily some part of that Book of Canonicall Scrip<g ref="char:EOLhyphen"/>ture, which in his judgement he conceiveth to be fittest for the times, and the condition of his flock. The Doctrine deduced is explaned and confirmed by Scripture, and fitly and faithfully applied in such method, manner and expressi<g ref="char:EOLhyphen"/>on, as may most edifie the hearers.</p>
+               <p>After Sermon, the Pastor praiseth God, and prayeth again for a blessing, with earnest Petitions for the Church Vniversall, and for the coming of the King<g ref="char:EOLhyphen"/>dome of Christ, for all the afflicted Churches, for the Chu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ches in the Kings Dominions, for the King, Queen, Prince, and the whole Royall Progenie, for the Ministerie and People of the Kingdome, for all the members of that particular Congregation, as well absent in their lawfull affaires, as present; for all that are afflicted among them, in body, minde, or meanes. The Prayer being ended, a Psalme is sung, and the people dismissed with a blessing.</p>
+               <p>In the afternoone either the same order, in all things almost, is followed in per<g ref="char:EOLhyphen"/>forming the parts of publike Worship, or some part of the Catechisme expoun<g ref="char:EOLhyphen"/>ded, and thereafter so much time as may be spared bestowed in catechizing, some part of the Congregation warned particularly to attend.</p>
+               <pb n="6" facs="tcp:51043:5"/>
+               <p>Beside the publike meanes, there are other three helps for edification, one is an ordinary course of Catechising on such daies of the week, as are judged fittest by the Pastour, and Eldership. Another is the visitation of fami<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ies by the Pastors, and the Elders, each one in his owne quarter, for trying the manners of the peo<g ref="char:EOLhyphen"/>ple, whether they walk worthy of the Gospell, for setting, and holding up reli<g ref="char:EOLhyphen"/>gious exercise in families. And that the Pastor from his particular knowledge of the flock committed to him, may apply his doctrine, and pray the more pertinent<g ref="char:EOLhyphen"/>ly in publike. The third is, Examination of all sorts of persons, who are not knowne to have some good measure of knowledge, before the Communion. All these parts of the Minist<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ry in publike and private are performed more diligent<g ref="char:EOLhyphen"/>ly, or negligently, according to the faithfulnesse or unfaithfulnesse of the Minister, who hath according to his work, his praise, or censure at the visitation of <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Church, by the greater Presbytery.</p>
+               <p>No Minister is suffered to be a Non-resident, or to have the charge of more Churches; But if two small contiguous Parishes be united by the assembly, to make up a competent congregation, to preach sometime in the one, and sometime in the other Church, as the people shall desire, and the Eldership direct.</p>
+            </div>
+            <div type="section">
+               <head>The forme of Baptisme.</head>
+               <p>NO other but the Pastor, who preacheth the Word, hath the power of the Ministration of the Sacraments; And concerning Baptisme, not to be hasten<g ref="char:EOLhyphen"/>ed before some day of the publike meeting of the Congregation, nor delayed af<g ref="char:EOLhyphen"/>ter, but upon necessary impediments, and never to be ministred in private houses. Notice must be given thereof in due time to the Pastor, and that by the Father of the child, if he be not justly hindered, that a word may be spoken to him in season.</p>
+               <p>After Sermon on the week daies, and after Sermon in the afternoon, on the the Lords day, the Pastor remaining in the same place, where he hath preached, and having water in a large Basin provided, with a fair Linnen cloth, in a conve<g ref="char:EOLhyphen"/>nient place, and in a decent manner; The Father, or in his necessary absence, some other man, who is reputed godly, presenteth the child to be baptized. The action is begun with a short and pertinent prayer; next, some words of instruction touching the Author, nature, use, and end of this Sacrament, the dutie to be per<g ref="char:EOLhyphen"/>formed, in the one time, of the person to be baptized, and of the parent or vice-parent. Thirdly, he that presenteth the childe, maketh confession of the Faith, into which the child is to be baptized, and promiseth to bring up the childe in that Faith, and in the feare of God. Fourthly, the Minister being informed of the name of the childe, baptizeth the childe so named, by sprinkling with water, <hi>Into the name of the Father, Son and Holy Ghost.</hi> Lastly, the Minister conclu<g ref="char:EOLhyphen"/>deth,
+<pb n="7" facs="tcp:51043:5"/> as well the publike worship, for that time, as the action, with thanksgiving, for the Word, and Sacraments, and with prayer for a blessing, and with such Petitions, as he useth at other times after Sermon, and in the end dismisseth the Congregation with the blessing.</p>
+            </div>
+            <div type="section">
+               <head>The order of administring the Sacrament of the Lords Supper.</head>
+               <p>THe Sacrament of the Lords Supper, is more frequently administred in some Congregations, then in other, according to the number of the Communicants, and the Proficiency of the People in the way of Christ; and in some places upon one Sabbath, in other places upon two, or three Sabbaths, as it may be done most conveniently, which is determined by the Minister, and Eldership of the Church.</p>
+               <p>None are to be admitted, to the Lords Supper, but such as upon examination are found to have a competent measure of knowledge in the grounds of Christian Religion, and doctrine of the Sacraments; and are able, according to the Apo<g ref="char:EOLhyphen"/>stles Commandement, and professe themselves willing, to examine themselves, and to renew their Covenant made with God in Baptisme, promising to walk as beseemeth Christians, and to submit themselves to all the Ordinances of Christ. the ignorant, the scandalous, the obstinate, and such as are under Censure, or pu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ke admonition in the way to censure, are not to be admitted; Neither are strangers to be received, but upon sufficient testimony, or otherwise very well knowne.</p>
+               <p>The Sabbath day next before the Communion is to be celebrated, publike war<g ref="char:EOLhyphen"/>ning there of is given by the Pastor, and of the doctrine of preparation, to be taught the last day of the weeke▪ or at least, toward the end of the weeke; That the Communicants may be the better prepared, by the use of the means, both in private and publike.</p>
+               <p>Vpon the day of the Communion (notice being given after the Doctrine of prepa<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ation, of the houres of meeting, which should bee before the ordinary time ob<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rved other Sabbaths) a large Table decently covered, so placed, as that the Communicants may best stand about it, and the whole Congregation, may both hear and behold.</p>
+               <p>The Preface, prayers, and preaching of that day, must be all framed to the pre<g ref="char:EOLhyphen"/>sent matter of the Sacrament, and the duties of the receivers; after Sermon im<g ref="char:EOLhyphen"/>mediately the Pastor useth an exhortation, and debarreth from the Table all ig<g ref="char:EOLhyphen"/>norant, prophane, and scandalous persons, which being done, he goeth from the Pulpit, and sitteth down with the people at the Table, where the bread standing before him in great Basins, fitly prepared for breaking and distribution, and the wine in large Cups in like manner, he first readeth, and shortly expoundeth the words of Institution, shewing the nature, use, and end of the Sacrament, and the duties of the Communicants; next he is to use a prayer, wherein he both gi<g ref="char:EOLhyphen"/>veth thanks, especially for the inestimable benefit of Redemption, and for the
+<pb n="8" facs="tcp:51043:6"/> meanes of the Word and Sacraments, particularly of this Sacrament; and pray<g ref="char:EOLhyphen"/>eth earnestly to God for his powerfull presence, and effectuall working, to ac<g ref="char:EOLhyphen"/>company his own Ordinance, to the comfort of his people that are to com<g ref="char:EOLhyphen"/>municate.</p>
+               <p>The Elements thus being sanctified by the Word and Prayer, the Minister Sa<g ref="char:EOLhyphen"/>cramentally is to breake the bread, taketh and eateth himself, and delivereth to the people, sitting in decent and reverent manner about the Tabl<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, but without difference of degrees, or acceptions of persons; those that are neerest the Minister, having receiv<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d the bread, do divide it from hand to hand amongst themselves; when the Minister delivereth the bread, acco ding to the commandement and ex<g ref="char:EOLhyphen"/>ample of Christ, he commandeth the People to take and eat, saying, <hi>Take ye, eat ye; this is the Body of the L<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rd, which is broken for you: Do it in remembrance of him.</hi> After all at the Table have taken, and eaten, the Minister taketh the Cup, and drink<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ng first himselfe, he giveth it to the nearest, saying, <hi>This Cup is the New T<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>stament, in the Blood of the Lord Jesus, which is shed for many, for the remission of sinnes; drinke ye all of it, for as often as ye doe eat this Bread, and drinke this Cup, ye do shew the Lords death till he come.</hi> All this time the Elders, in a competent number, and in a grave and reverent manner, attend about the Table, that all who are admitted to the Table, may have the Bread and Wine in their own place and order of sitting, the Minister also continuing in his place, af<g ref="char:EOLhyphen"/>ter the giving of the Elements, doth either by his own speech stir up the Com<g ref="char:EOLhyphen"/>municants to spirituall meditations of faith, of the great love of God in Christ, and of the passion of Christ, and to the holy affections of love, joy, godly sor<g ref="char:EOLhyphen"/>row, and whatsoever may concerne them at that time, or causeth to be read the history of the Passion, or some other part of Scripture which may worke the same effect.</p>
+               <p>After all at the Table, have received the Cup, they rise from the Table, and re<g ref="char:EOLhyphen"/>turne in a quiet manner, to their places, another company is to come to the Ta<g ref="char:EOLhyphen"/>ble, and so a third and a fourth, till all have received in the same manner as the first, during which time of removing of the one, and approaching of the other, the whole Congregation sing some part of a Psalm, touching the Passion, or the love and kindnesse of God to his people, as <hi>Psal.</hi> 22. or 103. &amp;c.</p>
+               <p>After the last companie hath received, the Minister rising from the Table, go<g ref="char:EOLhyphen"/>eth to the Pulpit, where, after a short speech, tending to thanksgiving, he is a<g ref="char:EOLhyphen"/>gaine solemnely to give thankes unto God for so great a mercy, and prayeth as on other Sabbaths; the prayer ended, all joyne in singing a Psalme of p<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aise, su<g ref="char:EOLhyphen"/>table to the occasion, and are dismissed with the blessing, before which none are to depart, unlesse in case of necessity.</p>
+               <p>The Communion being thus celebrated in the forenoon, the People meet again in the afternoone, at which time the Minister teacheth the Doctrine of thanks<g ref="char:EOLhyphen"/>giving,
+<pb n="9" facs="tcp:51043:6"/> and closeth the publike and solemne worship of that day, from which the People use to depart, refreshed with the grace and peace of God, and streng<g ref="char:EOLhyphen"/>thened, with new and fresh resolutions to serve the Lord.</p>
+            </div>
+            <div type="section">
+               <head>The order of publike fasting or humiliation.</head>
+               <p>SOmetimes the fast or humiliation is of larger extent, to be observed by all the Churches in the Kingdome, sometime more particular, of one or more Congre<g ref="char:EOLhyphen"/>gations; Sometimes the fast being kept one day only, sometimes all the daies of the week, sometimes on the Sabbath onely especially in the Countrey Churches; Sometimes upon some day of the weeke also, as in Cities or Towns; Neither to make difference of dayes for humiliation, nor to keep any set fasts or feasts: all to be disposed and done, according as the occasions, and causes do presse or require, as may serve most for the end intended, and may best ply with the opportunities, and necessities of the Congregation.</p>
+               <p>The Sabbath next before the fast, notice is to be given of the Causes of humi<g ref="char:EOLhyphen"/>liation, and of the times to be observed, with earnest exhortation to the people, to prepare themselves for afflicting their souls, and extraordinary humiliation.</p>
+               <p>In many places, especially in Cities, Towns, and greater Villages, or where the people may conveniently assemble, the day before the fast, the doctrine of preparation to the fast is to be taught, expressing the nature, and use thereof, for averting the wrath of God.</p>
+               <p>The dayes of the fast from morning to evening, are to be kept unto the Lord in the nature of an extraordinary Sabbath, with abstinence from mea<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, and drinke, from delights and worldly labours, with the exercises of reading the Law, plain preaching, interpretation, and particular application, deep humiliation, and rent<g ref="char:EOLhyphen"/>ing of the heart for sin, large, and hearty confessions of sin, fervent supplicati<g ref="char:EOLhyphen"/>ons, and earnest seeking of God, by prayer for pardon, with singing of peniten<g ref="char:EOLhyphen"/>tiall <hi>Psalms.</hi>
+               </p>
+            </div>
+            <div type="section">
+               <head>The order of marriage.</head>
+               <p>ALthough marriage be no Sacrament, nor part of the Worship of God, yet the Matrimoniall conjunction of Christians, and members of the Church is most conveniently solemnized in the face of the Congregation, with instruction out of Gods Word, of the Institution, use, and ends of marriage, and of the du<g ref="char:EOLhyphen"/>ties of married persons, and with blessing by the Minister, and with the prayers of the Church.</p>
+               <p>The parties are to be contracted before they be married, and before they be contracted, if there be any suspition of their ignorance, they are examined in the grounds of Religion, and in their knowledge of the mutuall du<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ies, which they owe each to other. Notice also is to be given of the consent of Parents, or vice-Parents, and that neither of them is contracted before to any other party, nor any impediment from the degrees of Affinity, or Consanguinitie prohibited;
+<pb n="10" facs="tcp:51043:7"/> the contract and purpose of marriage is also published, three severall Sabbaths be<g ref="char:EOLhyphen"/>fore the same be solemnized, and if there be nothing objected to hinder their marriage, then are they to be solemnly married, in the face of the Congregation, before the ending of 40. dayes from the time of the contract.</p>
+               <p>For marriage is required the free consent of the parties, come to the yeares of discretion, and the knowledge and consent of the Parents; not of Infants, nor s<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cret and clandestine contracts and marriages, nor to use idle rites or superstiti<g ref="char:EOLhyphen"/>ous Ceremonies, in the time of Solemnization.</p>
+            </div>
+            <div type="section">
+               <head>The order of Buriall of the dead.</head>
+               <p>THough Buriall be no part of the Worship of God, nor of the worke of the Ministery; yet an honest and competent number of Christians, are to accom<g ref="char:EOLhyphen"/>pany the Christian friends of the dead unto the Grave, that they may comfort one another by the way, and to see the buriall done in a grave and decent manner, re<g ref="char:EOLhyphen"/>membring that sin is the cause of death, that Christ hath overcom death and the grave, and that they who dye in the Lord, rise againe to life everlasting▪ And without singing or reading, which the superstitious doe conceive to be profitable, for the dead; without Funerall Sermons, which do beget superstition, and tend to flattery, make the Gospel to be preached with respect of persons, and are most pressed by such as doe least regard Sermons at other times; and without Feasting, with affectate shewes of mourning, and any further pomp or Ceremony, than civill differences and respects do require.</p>
+               <p>The places of the assembling of the people for the Word and Sacraments, ought not to be places of Buriall, which is therefore forbidden.</p>
+               <p>Registers are ordained to be kept, of the names and times of all that are bapti<g ref="char:EOLhyphen"/>zed, of all that are married, and all that are buried.</p>
+            </div>
+            <div type="section">
+               <head>Of Doctors, and their Office, and of Schools.</head>
+               <p>NO other Doctors, but Masters and Professors of Divinity, in Vniversities and Colledges, of which, some are to be chosen to be Elders of particular Churches, and Commissioners to the Nationall Assembly, and besides these, the Teachers of more private and particular Schools.</p>
+               <p>These to be examined and tried, both in their learning and life, by the Presby<g ref="char:EOLhyphen"/>tery, and their charge is not only to bring up their schollers in humane literature, and liberall Arts, but also in civill Conversation and good manners, but especially in the Grounds of Christian Religion, by way of Catechisme.</p>
+               <p>As the Doctors of Colledges do keep the meetings of the Presbitery, and by course do prophesie, or make the exercise with the Ministers, so also the Masters of private Schooles.</p>
+               <p>The Vniversities also to be visited by Commissioners delegated from the Na<g ref="char:EOLhyphen"/>tionall Assembly, that there be nothing taught by the Professors and Doctors, but what is sound and consonant to the confession of faith, and the received Do<g ref="char:EOLhyphen"/>ctrine,
+<pb n="11" facs="tcp:51043:7"/> and order of the Church; and to see that both Masters, and Schollers do their duties diligently, especially that there be no scandall nor corruption of man<g ref="char:EOLhyphen"/>ners. In like manner the more private schooles, visited by the Presbiteries, poor schollers of good ingenies and expectation provided in a great part of their main<g ref="char:EOLhyphen"/>tenance, by places of the foundation of Colledges, which are appointed by the Founders, or Reformers, for that use, and others to be maintained, by Contribu<g ref="char:EOLhyphen"/>tion of particular Churches within every Presbitery, which the Pastor or Elder is to bring unto them, so soone as they are chosen by the Presbitery.</p>
+            </div>
+            <div type="section">
+               <head>Of Elders and their Office.</head>
+               <p>THe Calling, Election, and admission of Elders is before spoken of. The num<g ref="char:EOLhyphen"/>ber of Elders in every Parish is not definite, but doth vary, according to the number and necessity of the people; In some parishes sixe, in some tenne or twelve, &amp;c.</p>
+               <p>Such are to be chosen for Elders as come neerest to the gifts, and qualities, re<g ref="char:EOLhyphen"/>quired by the Apostle; and after they are chosen, are (at all occasions) to be ex<g ref="char:EOLhyphen"/>horted by the Pastor to be ensamples to the flock, and to watch over them faith<g ref="char:EOLhyphen"/>fully, against all corruptions, in Religion and life. And as the Pastor should be diligent in teaching and sowing the seed, so are the Elders desired to be carefull in seeing and seeking the fruits of the people.</p>
+               <p>The Elders are to attend with the Pastor in Catechising the people, to assist him in visiting the sick, in admonishing all men of their duty, and if any will not heare them, they must bring the disobedient before the Eldership; But a princi<g ref="char:EOLhyphen"/>pall part of their duty is to joyne alwayes, with the Pastor in the particular El<g ref="char:EOLhyphen"/>dership, and in other assemblies of the Church, as they shall be called, for exerci<g ref="char:EOLhyphen"/>sing of discipline, and governing the whole Congregation.</p>
+            </div>
+            <div type="section">
+               <head>Of the Deacons and their Office.</head>
+               <p>WHat manner of persons the Deacons ought to be, the Scripture is plain, and such they make choice of as are so qualified, so far as may be; The forme of their election is before expressed. Their number must be considered of, according to the number of the poore, and the proportion of the Congregation, as we spake before of the Elders.</p>
+               <p>Their maine duty is, to collect, receive, and distribute, not onely the almes for the poore, but the whole Ecclesiasticall goods, which are not assigned and ap<g ref="char:EOLhyphen"/>pointed, for the maintenance of particular persons.</p>
+               <p>These duties they must performe, at the discretion, and by the appointment of the Pastor, and Elders; for which cause, and not for government, they are to be present at the ordinary meetings of the Eldership.</p>
+               <p>The meanes (for the maintenance of the poore) are collected by the Deacons, the first day of the weeke, and other dayes of the publike assembling of the peo<g ref="char:EOLhyphen"/>ple to the worship of God, at the entry of the Church. And if this prove not a competency, then do the people either bring in their Charity, on such daies as are
+<pb n="12" facs="tcp:51043:8"/> appointed by the Eldership, or are willing to be taxed, according as they shall be judged to be able. In Cities and Parishes, where this order shall be carefully ob<g ref="char:EOLhyphen"/>served, none will be suffered to beg, and none lacke.</p>
+            </div>
+            <div type="section">
+               <head>Of Church Assemblies in generall.</head>
+               <p>NO man, were he never so eminent above others, for piety wisdome or learn<g ref="char:EOLhyphen"/>ing, or doth he never so much arrogate authority to himself, hath the rains of Church-Government in his hands to determine, or to doe what seemeth good in his own eyes; But all matters are to be advised, determined, and judged with common consent, in the meetings and assemblies of the Church, which for this end are of foure sorts and degrees, which are commonly called by the names of Church Sessions, or pa<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ticular Elderships, or Consistories; Presbyteries or Clas<g ref="char:EOLhyphen"/>ses; Provinciall Synods, and Nationall, or Generall Assemblies.</p>
+               <p>Each of these assemblies hath a President or Moderator, who beginneth and endeth with Prayer; propoundeth matters to be treated; procureth them to be debated if need be, and in orderly way, that all may be heard, and none interrup<g ref="char:EOLhyphen"/>ted, unlesse he speak too much; gathereth the voices, which are noted by the Clerk, and pronounceth the sentence, or if there be an equality, remitteth it to the greater Presbytery; each of them hath a Clerk, or a Notary; and a Register of all things debated and done by them, especially of such matters as may be of fu<g ref="char:EOLhyphen"/>ture use.</p>
+               <p>None of these assemblies, from the least to the greatest, are to treat of matt<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rs pertaining to the civill Jurisdiction and Magistrate, but only of matters Spirituall, and Ecclesiasticall, that the doctrine and worship may be kept in purity, all things be done decently, and in order, in the particular Churches, and that all the Mem<g ref="char:EOLhyphen"/>bers of the Churches may walke worthy of the Gospel.</p>
+               <p>The lesser and inferiour Assembly is subordinate to the superiour and greater, so that if any person shall think himselfe wronged or distressed, by the unjust pro<g ref="char:EOLhyphen"/>ceedings of the inferiour Assembly, it is lawfull for him to seek relief of the great<g ref="char:EOLhyphen"/>er, providing, it be done in an humble and peaceable way, and in the right order, by proceeding to the next greater Assembly, and so of the rest, if need be, taking them in their subordination, untill either he be satisfied, or, which rarely com<g ref="char:EOLhyphen"/>meth to passe, he ascend unto the highest of all.</p>
+               <p>In matters difficult, or such as belong to superiour Assemblies, references from the lesser are ordinary, but nothing belonging to an inferiour Assembly is brought before a greater, till either it cannot be setled, or be disorderly done by them, or some complaint arise. And in that case, so far as may stand with truth and peace, the greater Assemblie is carefull to preserve the power and authoritie of the lesser, and therefore matters belonging to the inferiour Assemblies are commonly remit<g ref="char:EOLhyphen"/>ted unto them by the greater.</p>
+               <p>No one Church, be it never so great, is to have authority over another, nor is it
+<pb n="13" facs="tcp:51043:8"/> governed by any <gap reason="illegible" resp="#keyers" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>nsecall power; but all the particular Churches are of equall power and author<gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>, and are ruled and judged by themselves, and their owne in<g ref="char:EOLhyphen"/>trinsecall power in Assemblies composed, and consisting of their Officers and Commissioners from them.</p>
+            </div>
+            <div type="section">
+               <head>Of particular Elderships in Parishes.</head>
+               <p>THe particular Eldership or Church-Session consisteth of one or moe Mini<g ref="char:EOLhyphen"/>sters, and of Elders, so many in number as the proportion of the Congrega<g ref="char:EOLhyphen"/>tion doth require, who ordinarily do meet once in the week.</p>
+               <p>The Deacons are alwayes to be present with the Elders, not for government, but that they may make knowne the case and necessities of the poore, and may consult and receive direction for their supply.</p>
+               <p>The Minister of the Parish is alwaies to be Moderator of this Meeting, and if there be moe Ministers then one, the Moderator is either chosen, or they do mo<g ref="char:EOLhyphen"/>derate by course, providing that none be Moderator while any matter is treated which concerneth his own particular.</p>
+               <p>The matters treated by this Eldership, are such particulars as concerne the worship of God in that Church; as, what dayes of the week are meetest for assembling to the publike Worship, if it may be had, and be thought necessary, what houres on the Lords Day, before and after noone, which are variable, ac<g ref="char:EOLhyphen"/>cording to the length, or shortnesse of the day, in Summer and Winter; what times are fittest for publike catechising, and for visiting of particular families; how often, and at what times, the Lords Supper is most seasonably to be admi<g ref="char:EOLhyphen"/>nistred: all which are fitting for keeping of order in the Church, and cannot be so fitly determined by a superiour Assembly; the Elders also do here delate scan<g ref="char:EOLhyphen"/>dalous persons, and bring them to publike repentance, according to the Forme prescribed in the greater Assemblies: but if there be any doubt or difficulty, or if the delinquents add obstinacie and impenitencie to their fault, then are they war<g ref="char:EOLhyphen"/>ned to appeare before the greater Presbytery, there to receive order for their cen<g ref="char:EOLhyphen"/>sure, or to be sent home again to give satisfaction, or to make their repentance in their own Church where they have given offence, and where the fault was com<g ref="char:EOLhyphen"/>mitted: For example, a man behaving himself scandalously with a woman, both unmarried and single persons, is first admonished and rebuked; if fornication appeare, he is called before the Eldership, brought to the sense and confession of his fault, and ordained to make his publike repentance, according to the order of the Church, and to abstain from all scandalous behaviour afterward. But if he prove obstinat<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, he is conveened before the greater Presbyterie, the matter is ex<g ref="char:EOLhyphen"/>amined, and either promiseth to give obedience to his own Eldership, or in case of continued obstinacie, the censures of the Church proceed against him. But if there be a scandall of adulterie or murder, the noise and scandall whereof is
+<pb n="14" facs="tcp:51043:9"/> far spread, and filleth all mens eares round about, the part<gap reason="illegible" resp="#keyers" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re brought before the greater Presbyterie, and the particular Eldership doth before prepare the par<g ref="char:EOLhyphen"/>ties for their appearance before the Presbyterie.</p>
+               <p>The same faults which are brought before the particular or greater Presbytery in an Ecclesiasticall way, are also published by the civill Magistrate, and the pecu<g ref="char:EOLhyphen"/>niall mulct or penalty is given to the Deacons to be kept in the Church treasure for the benefit of the poore, or other pious uses.</p>
+               <p>Nothing useth to be done by the lesser or greater Presbytery in ordering the publicke Worship, in censuring of delinquents or bringing them to publick re<g ref="char:EOLhyphen"/>pentance, but according to the setled order of the Church, and with expresse or tacite consent of the congregation, and if there be any new emergents that cause doubting or haesitation, the matter is remitted to the greater assemblies of the Church.</p>
+            </div>
+            <div type="section">
+               <head>The order of Excommunication.</head>
+               <p>ALL baptized persons, when they come to age and discretion, are not admitted to the Lords Table; but such only as either upon examination are found to have a competent measure of knowledge in the principles of Religion, doe pro<g ref="char:EOLhyphen"/>fesse that they are beleevers and doe live unblameably, or comming from another Congregation, bring with them sufficient testimony that they are such, or are o<g ref="char:EOLhyphen"/>ther wise well knowne and approved.</p>
+               <p>The Ministers and Elders are to use all the the means in publike and private to bring all others within the parish to knowledge, faith, and holinesse of life, that they may be fitted for the Lords Table.</p>
+               <p>But this not admission to the Communion is one thing, and excommunication of haynous or obstinate offenders, is another thing very different.</p>
+               <p>In case of obstinacie and wilfull impenitencie, even when the offences are not so great and scandalous, they proceed to excommunication, but with great meek<g ref="char:EOLhyphen"/>nesse, long suffering, and by many degrees, the censure being so weighty, and they desirous to gaine the sinner to repentance.</p>
+               <p>If any person walke unworthy of the Gospel, or commit any trespasse, he is (unlesse the scandall be publike and notorious) admonished first secretly by one, next by two or three more; and thirdly, if he contemne both, then according to the order prescribed by our Saviour, <hi>Mat.</hi> 18. The matter is brought before the Minister and Elders, where he is accused both of the trespasse and of the contempt. If he cannot yet be brought to repentance, then is the matter in some measure to be made knowne unto the Congregation, and he called before the greater Presby<g ref="char:EOLhyphen"/>tery; where if he give signes of his repentance, he is remitted to satisfie his own session. But if he persist in his obstinacie, then by the Ordinance of the Presby<g ref="char:EOLhyphen"/>tery, the particular eldership is to proceed against him, with the censure of the Church, even to Excommunication.</p>
+               <pb n="15" facs="tcp:51043:9"/>
+               <p>The matter being thus heard knowne and judged, and the whole processe re<g ref="char:EOLhyphen"/>vised by the greater Presbyterie, the next Sabbath without del<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y, the trespasse and order of admonitions are to be declared to the Congreg<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tion, and the person without specification of his n<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>me, admonished yet to satisfie: which if he still refuse to do, the next Sabbath his name, with his offence and contempt, are pub<g ref="char:EOLhyphen"/>lished; if he yet continue obstinate, then the next, which is the third Sabbath, is he charged publikely to satisfie for his offence and co<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tempt under the paine of excommunication. If now he offer himselfe to the particular Presbytery, then do they at the appointment of the Presbyterie, give order for his publike repen<g ref="char:EOLhyphen"/>tance, the removing of the scandall, and his reconcilement to the Church, other<g ref="char:EOLhyphen"/>wise the Minister proceedeth in this order.</p>
+               <p>The Sabbath after the third publike admonition, the Minister, with consent of the Eldership, is to make knowne to the Congregation that such a person is to be excommunicated, warning all that have any thing to <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>bject against it, that they appeare the next Session day: and for the present, that the whole Congregati<g ref="char:EOLhyphen"/>on powre forth their supplications, that God would grant him repentance, and to come out of the s<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>re of the Devill. If nothing be objected, or if none for him witnesse any appearance of repentance, then is the danger of the person, and the weight of the sentence laid open the next Sabbath, and be the second time prayed for publikely. If at last, upon the next Sabbath, there be no signe of re<g ref="char:EOLhyphen"/>pentance, then is he prayed for the third time; and there being no meanes unas<g ref="char:EOLhyphen"/>sayed, nor remedy left to reclaime him, he is strucken with the terrible sentence of excommunication, with c<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lling upon the Name of God to ratifie the sentence in Heaven, and the people warned to hold him as an Heathen, or a Publican, and to shun all communion with him, except in naturall and civill duties, to be still performed by such as are bound. It is to be understood, that where the crime<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> are such, that they cry to the heavens for revenge, waste the conscience, and by the law of God deserve death, and the transgressour certainly known, the Pro<g ref="char:EOLhyphen"/>cesse may be more summarie, and Excommunication more hastened; a<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> on the o<g ref="char:EOLhyphen"/>ther part of Absolution, the time would be longer, and the triall of repentance more exact.</p>
+               <p>After excommunication, he is permitted to come to the preaching of the Word, yet so as it may appeare that he commeth as one not having communion with the Church. Neither is he debarred from private counsell, instruction, ad<g ref="char:EOLhyphen"/>monition, and prayer, that in the end his spirit may be saved. If after excommuni<g ref="char:EOLhyphen"/>cation the Eldership finde the signes of repentance, as the good life and behavi<g ref="char:EOLhyphen"/>our of the excommunicate, declaration of the griefe of his heart, and his humble submission to the order of the Church, in all things that may reconcile him to God and his people, they shall with joy of heart make it knowne to the Con<g ref="char:EOLhyphen"/>gregation by the Minister, that they may also <gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ve joy over their brother repen<g ref="char:EOLhyphen"/>ting:
+<pb n="16" facs="tcp:51043:10"/> or if they have ought to object against the truth of his repentance, they may give notice thereof at the next meeting of the Eldership, where if nothing be alleaged against him, after he hath obeyed the injunctions of the Eldership for his further humiliation and the better triall of his repentance, he is either brought before the greater Presbyterie, as all other penitents for great crimes, or by rela<g ref="char:EOLhyphen"/>tion from his own Eldership, is to give them satisfaction in the signes of his re<g ref="char:EOLhyphen"/>pentance that he may be absolved.</p>
+               <p>As all publike penitents are received, so is the excommunicate absolved in the face of the Congregation, before whom being brought by the Elders at the time appointed, he maketh free confession of his sinne and mourneth for it, cryeth to God for mercie, seeketh to be reconciled to the Church and promiseth new obe<g ref="char:EOLhyphen"/>dience; with which all being satisfied, and willing to receive him into their com<g ref="char:EOLhyphen"/>mon and mutuall consolation, the Minister who preacheth for that time pronoun<g ref="char:EOLhyphen"/>ceth him upon his repentance to be absolved in the Name of Christ from his sin, and free of the censures of the Church, and have right through faith to Christ and all his benefits and ordinances, praising God for his grace, and praying that he may be fully accepted to his favour, loosed in heaven, and heare the voice of joy and gladnesse.</p>
+               <p>After the sentence of absolution, the Minister speaketh to him as a brother, ex<g ref="char:EOLhyphen"/>horting him to watch and pray, or comforting him if he have need, the Elders imbrace him, and the whole Congregation keepeth communion with him as if he had never offended.</p>
+               <p>As the Presbyterie excommunicateth prophane professors, so doth it also de<g ref="char:EOLhyphen"/>pose Preachers, if they be teachers of corrupt Doctrine, if their lives continue scandalous after admonition, if they be busie in renting the Church asunder by schisme and division; if they be given to blasphemy, profanation of the Lords day, simonie, perjurie, drunkennesse, fighting, or any other sinne, for which, whether in respect of the greatnesse of the sinne, or by reason of the contempt and obstinacie when the sinne is not so great, private persons are excommunica<g ref="char:EOLhyphen"/>ted; and although they be upon their repentance absolved from the sentence of excommunication, yet in some cases especially, where the crime inferreth a per<g ref="char:EOLhyphen"/>petuall infamie, are they never readmitted to the Ministerie, except upon the unanimous and most earnest desire of the whole Church where they served before.</p>
+            </div>
+            <div type="section">
+               <head>Of greater Presbyteries or Classes.</head>
+               <p>THe Presbyterie or Classicall meeting doth consist of particular neighbouring Churches in such a circuit as may conveniently meet together, to the number of ten, sixteene, twentie, or so many as the vicinitie of the places, and Parishes may well accommodate.</p>
+               <p>It is supposed that the whole particular Elderships cannot well assemble in
+<pb n="17" facs="tcp:51043:10"/> one place ordinarily, neither is it necessarie. There must be therefore, beside the Minister or Ministers of the Congregation, who are supposed to be perpetuall members of the Presbyterie, some of speciall note chosen out of the Elders, and by them, who receiving from them Commission, may represent the whole; from each particular Eldership, one of the Elders with the Minister or Ministers repai<g ref="char:EOLhyphen"/>reth to the place of meeting: so that the members of this Presbyteriall meeting are all Ministers within the Circuit, and one Elder delegated from each particular El<g ref="char:EOLhyphen"/>dership. None of the Ministers are permitted to be absent, unlesse they be detained by necessary impediments or extraordinary imployments. And therfore the day of the meeting of the Presbyterie may not be destinate to ordinary preaching? Nor are they to wait that day upon solemnizing of marriages. The names are called by the Clerk, and the absents are noted and examined the next day upon the reasons of their absence; and if any happen to absent themselves many daies without rea<g ref="char:EOLhyphen"/>sonable causes, they are set apart and censured as guilty of the contempt or neglect of the order of the Church. But the Elders are not so strictly tied to ordinatie at<g ref="char:EOLhyphen"/>tendance; but if there be any matter of great weight to be handled, they are all to be warned to be present: and if he who was formerly Commissioner may not as<g ref="char:EOLhyphen"/>sist, another Commissioner in his place may be chosen by the Eldership.</p>
+               <p>It is permitted to the expectants having entred before upon the publike exer<g ref="char:EOLhyphen"/>cise or prophesie, to sit by the Ministers and Elders in the meeting of the Presby<g ref="char:EOLhyphen"/>terie, and to give their judgement of the doctrine, but they have no voice when matters of doctrine or discipline are debated. And in the h<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ndling of some matters which are thought fit to be concealed and kept secret, till they be by common con<g ref="char:EOLhyphen"/>sent published, they are to be removed.</p>
+               <p>Because the whole discipline in a manner is in the hands of the Presbytery, they are to meet once a weeke or fortnight upon a certaine day, and in a certaine place, but in some places, through the length and deepnesse of the way in winter, they doe not meet so often.</p>
+               <p>The subject and matters treated by the Prebytery are all Ecclesiasticall mat<g ref="char:EOLhyphen"/>ters of weight, which concerne the particular Churches there represented, as the examination, ordination, suspension, and depositions of Ministers; scandals of Ministers in Doctrine, life or any part of their calling; the decerning of excommu<g ref="char:EOLhyphen"/>nication, references, and appellations from particular Elderships, and the amend<g ref="char:EOLhyphen"/>ing of any thing that hath been negligently or weakly done by them; the answer<g ref="char:EOLhyphen"/>ing also of questions and requests from other P<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>esbyteries, Churches, or persons, or sending of Commissioners in some cases to other Churches or Presbyteries, whether to admonish or advise them, or to seek counsell from them, but so that they have no authority without the limits of their own consociation.</p>
+               <p>The Ministers and Elders who are Commissioners, together with the expe<g ref="char:EOLhyphen"/>ctants &amp; others who are pleased to be present, meeting in the place, and at the day and houre appointed, which useth to be one half houre after nine a Clock in the
+<pb n="18" facs="tcp:51043:11"/> forenoon, whereof warning is given by the found of a bell, that so all the affaires of that day (unlesse there be somwhat extraordinary to hold them longer) may be expedited against mid-day, do begin with prayer, and proceed to the textuall in<g ref="char:EOLhyphen"/>terpretation of Scripture, which is done by the Ministers, each one in his owne place by course, or by the expectants, whose names are set forth in a table or writ<g ref="char:EOLhyphen"/>ten in the Register of the Presbyterie for that end; after the first speaker, some o<g ref="char:EOLhyphen"/>ther who followeth in order, and is also appointed by the Presbyterie the day be<g ref="char:EOLhyphen"/>fore, speaketh in the second place, collecting some doctrines one or moe upon the text expounded, and shewing the use thereof. The second speaker having ended about eleven a clock, the exercise is closed with thanksgiving by him who spake first. The matter of each daies exercise is some portion of that particular book of the old or new Testament agreed upon in the Presbyterie: once every moneth some common place or controversie is handled, unto which the exercise giveth place for that day. The ground is read in Scripture, the state of the question pro<g ref="char:EOLhyphen"/>pounded, the arguments for the truth pressed and vindicated from the sophistica<g ref="char:EOLhyphen"/>tion of the adversaries; but the arguments <hi>contra</hi> are left to be proponed in the Presbyteriall meeting by such Ministers as are called by the Moderator to dispute upon the p<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>opositions, or <hi>Theses</hi> exhibit, the day of the meeting next before, by the controversar, and are propugned by him, the Moderator being <hi>praeses</hi> of the disputation. That the Presbyterie may go through all the controversies, they have also a table wherein they are all digested in order, so that each minister or expe<g ref="char:EOLhyphen"/>ctant knoweth a moneth before what is next to be treated.</p>
+               <p>The exercise or common head of controversie ended in publick, the people de<g ref="char:EOLhyphen"/>part, and the Ministers and Elders with others, who are permitted to be pre<g ref="char:EOLhyphen"/>sent go to the private place of their meeting, where all being set in order, and the Moderator having begun with prayer, the doctrine delivered in publick is ex<g ref="char:EOLhyphen"/>amined, and each one of the Presbyterie and Expectants, either approveth, or in charity and sobernesse of spirit, propoundeth his doubt against any point spoken of, which being done, the speakers for that day are called upon (they being apart at this time) their interpretation and doctrine approved, and they encouraged or (if there be cause) they are in a brothe<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ly manner admonished. The doctrine censured (for this is called the censure of the doctrine.) The matters before men<g ref="char:EOLhyphen"/>tioned to be the subject of the Presbyteriall jurisdiction, are propounded, mode<g ref="char:EOLhyphen"/>stly debated, and either coocluded, or taken to further deliberation, or remitted to the Synod, and so the meeting concluded with prayer. The Moderator either con<g ref="char:EOLhyphen"/>tinueth in his place between one Provinriall Synod and another, or for a shorter time, but they think it not fit to change the Moderator at every meeting.</p>
+               <p>The Presbyteries also do visit the severall Churches within their bounds, ei<g ref="char:EOLhyphen"/>ther by holding their full meetings at the Churches, or by sending their Commis<g ref="char:EOLhyphen"/>sioners thither, that they may see how the Ordinances of Christ are used and o<g ref="char:EOLhyphen"/>beyed, by the Minister, Eldership, and all the Congregation, and that if any thing be amisse, it may be rectified.</p>
+            </div>
+            <div type="section">
+               <pb n="19" facs="tcp:51043:11"/>
+               <head>Of Provinciall Synods.</head>
+               <p>THe Provinciall Synod is of the same constitution with the Presbyte<g ref="char:EOLhyphen"/>ry, and doth consist of all the Ministers, and one Elder having com<g ref="char:EOLhyphen"/>mission, as before, from each particular Church within the Province. It meeteth ordinarily twice a yeere, but the place and the time of the meet<g ref="char:EOLhyphen"/>ing are chosen according to the conveniency of the Churches of the Pro<g ref="char:EOLhyphen"/>vince, and as the exigence of their affaires doth require. The Moderator of the former Synod openeth the Synod with a Sermon fit for such an As<g ref="char:EOLhyphen"/>sembly, and after Sermon setting himselfe downe in his place, with the Clerk of the Synod (who for the most part is one of the Ministers chosen by plurality of voyces) beginneth with prayer, causeth the names of the Ministers to be read, who not only answer for their own presence (the ab<g ref="char:EOLhyphen"/>sent being noted) but also give up the names of the Commissioners from the severall Churches, which are written down by the Clerk, and their Commissions also read, if need be, and proceedeth to the chusing of a new Moderator. The Moderator is thus chosen.</p>
+               <p>A list is made by the former Moderator of foure or five of the ablest men for wisdom, <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uthority and dexterity for such an employment which is ap<g ref="char:EOLhyphen"/>proved by the consent of the Synod. And if any Member of the Synod be pleased to adde any other so qualified to the list his name is joyned with the former, and out of this list the Moderator is chosen by the suffrages of the Ministers and Elders, and set in the place of the former Moderator.</p>
+               <p>The new Moderator first of all calleth for the Registers of the severall Prdsbyteries, and putteth them in the hands of the Ministers of other dif<g ref="char:EOLhyphen"/>ferent Presbyteries to be revised and examined, That by the Reeords it may be knowne how they have kept order. and performed what hath been<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> re<g ref="char:EOLhyphen"/>commended unto them by the preceding Synods. And what and how matters have beene treated by them at every session, that they may be cen<g ref="char:EOLhyphen"/>sured or allowed, which upon the report of the revisers is accordingly done in the face of the Synod.</p>
+               <p>If there be any references from the Synod before, they are first debated and determined, and thereafter new matters are brought into deliberation. What was obscure or difficult for the Presbyteries, or might concerne them all in common, is here resolved and ordered, what hath beene done amisse is redressed. And if any difficultie arise which doth not fall under some Church constitution, it is referred to the nationall assemblie.</p>
+               <p>Before the Assemblie be desolved, each Presbyterie is set a part by course and enquirie made from the rest, if there be any knowne scandall, fault, or negligence amongst them. That it may be in a brotherly manner censureb like as upon the day of the meeting of the Prsbyterie next going before the Synod; all the members of the Presbyterie suffer the like inquirie each one a part by all the rest.</p>
+               <pb n="20" facs="tcp:51043:12"/>
+               <p>As the Moderator beginneth and endeth everie Session before and after noone with prayer, so doth he somewhat more solemnly close the Synod with some pithy and pertinent exhortation, and hearty thanksgiving and prayer unto God.</p>
+               <p>All matters where these Synods are ordinarily kept are with such dili<g ref="char:EOLhyphen"/>gence to be expedited, that the Ministers (none of them having above a <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hort dayes journey, and Tuesday being usually the first day of their meet<g ref="char:EOLhyphen"/>ing) may return to their charge against the Lords Day, having notice of the day and place of the next following Synod, and carrying with them such Acts as are necessary, that they may be made known to their particu<g ref="char:EOLhyphen"/>lar Elderships and Congregations. And thanks may be given in every Con<g ref="char:EOLhyphen"/>gregation for the good proceedings of the Synod, and for the liberty of the Churches. These Synods are not alwayes held at one time, and therefore if there be cause, some Commissioners are sent from one Synod to ano<g ref="char:EOLhyphen"/>ther for their judgement a<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d advice in matters of difficultie, which is re<g ref="char:EOLhyphen"/>ported at the following Synod for their further resolution; and that so far as is possible there may be conformity in all things.</p>
+            </div>
+            <div type="section">
+               <head>O<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Nationall Synods, or generall Assemblies.</head>
+               <p>THe Nationall Assembly meeteth once in the yeere, and the time of the following Assembly agreed upon before the rising of the former, or oftner <hi>pro re n<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>,</hi> concerning which some Ministers may have Com<g ref="char:EOLhyphen"/>mission and Warrant from the Assembly to give timely advertisment to the Presbyteries for chusing and sending their Commissioners.</p>
+               <p>In this great Assembly the Kings Majesties presence, either in his Royall Person or by his High Commissioner▪ may do all the parts of a Supreme Civill President. In a peaceable ordering of the whole proceeding of so frequent and holy a meeting that all mens reasons and voices may be heard, and in acquainting himselfe with the grounds of every constitution that shal be agreed upon, that by his Princely Authority they may be observed, and the sanction of th<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Civill Law added, for which end also certain Com<g ref="char:EOLhyphen"/>missioners from the Assembly are to be sent to attend the Parliament.</p>
+               <p>It doth consist of Commissioners from the Presby<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eries or Classes, three Ministers and one Elder from each Presbyterie<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> w<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o are chosen by the oices of the Ministers and Elders s<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nt from the particular <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lderships and <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f on<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Commissioner from the Church session of every Royall Burgh, that there may be some proportion and equality. Others also are permi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ted although not to voice▪ yet to he<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re▪ propound, and debate, provided that they first obtai<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e leave of the Moderator: and that it may appeare to <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e done▪ <hi>mi<gap reason="illegible" resp="#keyers" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <gap reason="illegible" resp="#keyers" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>di <gap reason="illegible" resp="#keyers" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>, non t <gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nt <gap reason="illegible" resp="#keyers" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>di.</hi>
+               </p>
+               <p>Th<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> first day of the Assembly is to be kept wi h a sol<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mne Fast and hu<g ref="char:EOLhyphen"/>ilia<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ion, wherein the whole City or Towne, which is the Seat of the As<g ref="char:EOLhyphen"/>sembly,
+<pb n="21" facs="tcp:51043:12"/> is to joyne, with powerfull preaching and earnest prayers from morning till night.</p>
+               <p>The particular Churches also thorowout the Kingdom, upon the dayes of their publike meeting is to pray to God for his direction, assistance, and blessing unto the Assembly, that they may be led into all truth, and all the Churches be refreshed with the sweet fruits thereof.</p>
+               <p>The next day the Moderator of the preceding Assembly beginneth with prayer, causeth the Clerke to call the Presbyteries, and take up the names of the Commissioners, Ministers, and Elders, who give in their Commis<g ref="char:EOLhyphen"/>sions, which being read, examin<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d, and allowed, they proceed to the chu<g ref="char:EOLhyphen"/>sing of a new Moderator, keeping the same order which is set downe be<g ref="char:EOLhyphen"/>fore in chusing the Moderator of the Provinciall Synod.</p>
+               <p>The new Moderator calleth for the Records of the Synods, and by the voices of the Assembly chuseth a Committee for perusing and trying them; a Committee for the Bills, Complaints, and Petitions to be presented to the Assembly, and such other Committees as are ordinary for preparing of weighty matters for the Assembly, and for cutting off idle and imper<g ref="char:EOLhyphen"/>tinent things, that the dispatch may be the more speedy and easie, when they shall be brought to open debate and voycing all references from Sy<g ref="char:EOLhyphen"/>nods, Appellations, Grievances, Complaints, Petitions, are here examined and answered; Acts and Constitutions for all the Churches are agreed upon with oommon consent, and if there be any considerable contrad<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ction, and the doubts and scruples which are made be not satisfied, mat<g ref="char:EOLhyphen"/>ters are remitted to further delib<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ration till the next Assembly; course is taken for planting of Churches with able Ministers, that the Gospell may be spread thorow the whole Nation; Rules are set downe by which the inferiour Assemblies shall be directed in all their proceedings; all means used that the Church be not wronged, neither by confounding the Civill and Ecclesiasticall Jurisdiction, nor by the abusing or interverting the pa<g ref="char:EOLhyphen"/>trimony of the Church</p>
+               <p>The Commissioners of each Presbyterie are to carry home with them a true Copie of all such Acts as doe concerne all the Churches, that they may walke by one and the same rule.</p>
+               <p>The Modera<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>or giveth forth Summons signed with his own hand and the hand of the Clerke, for citing of persons in the name of the Assembly, to compare before the next meeting thereof, with certification of the cen<g ref="char:EOLhyphen"/>sure of the Church in case of disobedience.</p>
+            </div>
+         </div>
+         <div type="part">
+            <head>The Con<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lusion, up<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the experien<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e of the Chur<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h of Scotland.</head>
+            <p>IN the Authoritie of these Ass<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mblies▪ Parochiall, Presbyteriall, Pro<g ref="char:EOLhyphen"/>vinciall and Nationall, <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd in the subordination of the lesser unto the greater, or of more particular Elderships to the larger and generall El<g ref="char:EOLhyphen"/>dership,
+<pb n="22" facs="tcp:51043:13"/> doth consist the externall order, strength, and stedfastnesse of the Church of Scotland, which is lovely and comfortable to all fearing God, whether Pastor or Professors, and hath beene very awfull and terrible, as an Army with Banners to all Papists, to all Hereticks, Schismaticks, Hire<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ings, and all ungodly persons. As upon the one part they breake not the bruised Reed nor quench the smoaking Flax, but do cherish and labour to bring to ripenesse and use the graine of Mustard-s<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed in sincere beginners, and the smallest talent in Preachers having the zeale of God. So upon the other part, no scandall of proud sinners escapeth censure, no heresie or errour is sooner hatched, but is presently spied out and crushed by some of the inferiour Assemblies, or, if it be kept on foot and gather strength, it is quite suppressed and extinguished in the generall Assembly, which meet<g ref="char:EOLhyphen"/>eth once in the yeere, and never suffereth such bastard births to grow to be one yeere old, which is a true and maine cause why no Sects nor Errors have appeared in the Reformed Church of France, and in the Churches of Scotland and of the Low-Countries, so long as they enjoyed the libertie and happinesse of Assemblies, which they did no sooner by the mercie of God recover, but immediately at their brightnesse, the mists and mildews gathered before were scattered and vanished. And as by the order and pow<g ref="char:EOLhyphen"/>er of these Assemblies, Foxes are taken that they spoile not the Vines, and Gangrenes are prevented that they spread not against truth and unity, all sorts of lewd and wicked men are discouraged and put to shame: So is there excited among the godly Ministers an holy emulation by acquaint<g ref="char:EOLhyphen"/>ance, conference, and by perceiving the gifts one of another, which ma<g ref="char:EOLhyphen"/>keth them returne from the Assemblies with a meane and humble conceit of themselves, and with new and strong resolutions for greater diligence in their studies, and faithfulnesse in every Pastorall dutie, to the common benefit and edification of all the Churches; all the Ministers are made more wise in matters of Government; and all the Congregations are af<g ref="char:EOLhyphen"/>fected with reverence to what is required of them by their particular El<g ref="char:EOLhyphen"/>derships, as having the consent and approbation of the whole Church. Many such fruits are reaped of these Assemblies, which witho<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t them no particular person or congregation can have any ground to hope for or expect.</p>
+            <p>They have no Arch-bishops, Diocesan Bishops, Suffraganes, no Chapters, no Curats, dumbe nor idle Ministers, no hirelings, non-residents, nor pluralists, no Deanes nor Arch Deacons, no Chanters, Sub-chanters nor Treasurers, no Chancellors, Officials, nor Apparitors, no Canons Peti<g ref="char:EOLhyphen"/>canons, Prebends. Singing men nor boyes: And yet without these and the like, they have practise and use of all the ordinances of Christ; all matters Ecclesiasticall determined, remitting questions of tithes, marriages, di<g ref="char:EOLhyphen"/>vourcements,
+<pb n="23" facs="tcp:51043:13"/> &amp;c. to the civill Judge to whom they properly doe belong, and all petitions, complaints, and Church-grievances heard &amp; redressed, which they esteeme as the sweet yoke of Christ, and thinke it a great ease, both to their consciences and estates, to be free of such bundles and bur<g ref="char:EOLhyphen"/>thens of trash and superfluities. They conceive, that to erect Presbyterie<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Synods, and Nationall assemblies and still to keepe Prelates; and the mem<g ref="char:EOLhyphen"/>bers of that Hierarchie is, in the matter of Church-government, not un<g ref="char:EOLhyphen"/>like the Popish adding of Traditions to Scripture in the rule of faith, or works unto faith in the point of justification, &amp;c. additions to Christs in<g ref="char:EOLhyphen"/>stitution, being not onely in respect of their author humane inven<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ions, and for any use they can have idlements, vanities, and follies; but that they doe also corrupt the purity, and eate out the life of the ordinances of Christ.</p>
+            <p>Here there is a superiority without tyrannie, for no Minister hath a Pa<g ref="char:EOLhyphen"/>pall or Monarchicall jurisdiction over his his owne flock, far lesse over Pa<g ref="char:EOLhyphen"/>stors, and over all the Congregations or a large Dioces. Here there is a par<g ref="char:EOLhyphen"/>ty without confusion and disorder, for the Pastors are in order before the Elders and the Elders before the Deacons; the Church is subordinate to the Presbyterie, the Presbyterie to the Synod, and the Synod to the Nati<g ref="char:EOLhyphen"/>onall Assembly. One Pastor also hath priority before another, for age, for zeale, for gifts for his good deservings of the Church, each one honouring him whom God hath honoured, and as he beareth the image of God, which was to be seene amongst the Apostles themselves. But none hath power or jurisdiction above others; even as in nature, one eye hath not power over another, onely the head hath power over all, even as Christ over his Church. The same may be seene in the Common-wealth, and in some of the offices of the Roman Church it selfe. And lastly, here there is a subje<g ref="char:EOLhyphen"/>ction without slavery, for the people are subj<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ct to the Pastors and Assem<g ref="char:EOLhyphen"/>blies, yet there is no Assembly wherein every particular Church hath not interest and power; nor is ther<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> any thing done, but they are, if not actual<g ref="char:EOLhyphen"/>ly yet vertually called to consent unto it.</p>
+            <p>As they have done, and suffered much for vindicating and maintaining the liberty of their Rel<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gion that what belongeth unto God may be ren<g ref="char:EOLhyphen"/>dered un<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o God; So do <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey desire, that according to the rule of righteous<g ref="char:EOLhyphen"/>nesse each man have his owne, and above all men. That the things which are Caesars be rendred unto him, and to give him that which is Gods▪ were a wronging both of God and Caesar. They have ever beene willing to taxes and to pay subsidies above that which they were able. They joyne with the inward reverence of their hear<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s▪ ext<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rnall honour and obedience in all things lawfull. They powre forth their prayes to God in private and pub<g ref="char:EOLhyphen"/>like, for all blessings spirituall upon his Royall Person and Govenment▪
+<pb n="24" facs="tcp:51043:14"/> and upon his Progenie; and for the same blessings upon the Queens Maje<g ref="char:EOLhyphen"/>sty, especially that God by his Spirit would give unto her the knowledge and love of the truth. They long for her conversion as an happinesse to her selfe and a meane of great happinesse to the King, to their Children, and to all their Subjects. And, that the Lord may answer their prayers, they think it incumbent to the Church of England, nor can any bond whatsoe<g ref="char:EOLhyphen"/>ver oblige them to the contrary, to use the best and most powerfull means, and would most willingly in all humility, love and respect, joyne their en<g ref="char:EOLhyphen"/>deavors <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or that blessed end. And as they thus present their best desires and prayers, so are they re<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>dy to sacrifice their lives to God for his Majesties good, and in their hearts are grieved, that their loyalty, which they ac<g ref="char:EOLhyphen"/>count their no small glory, should have beene called in question.</p>
+            <p>Neither is this all, <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut moreover they doe acknowledg that his Maj<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sty, gs supreame Magistrate, hath not onely charge over the Common-wealth, but doth watch and hath inspection over the Church and Church matters, but in a civill way. <hi>Vos Episcopi in Ecclesia</hi> (saith <hi>Constantine) <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>go extra Ecclesiam Episcopus a Deo constitutus sum.</hi> And therefore that he is, by his high calling and place, <hi>Custos utrius{que} tabulae,</hi> to command the precepts of the first table as well as of the second table to be obeyed: That he is <hi>Vindex Religionis</hi> by his sword, as the Spirit of God in Scripture is <hi>Iudex,</hi> and the Church is <hi>Index:</hi> That he hath power to turne the constitutions of the Church into lawes: and to confirme them by the civill sanction in Parliament: That he may constraine all his subjects to doe dutie in matters of religion, and may pu<g ref="char:EOLhyphen"/>nish the transgressors: That when debates arise about Religion, he hath power to call the Assemblies of the Church to be present, and civilly pre<g ref="char:EOLhyphen"/>side in them, and to examine their constitutions that he may discerne of them both as a Christian caring for his owne soule, and as supreame Ma<g ref="char:EOLhyphen"/>gistrate watching over his people: and that he may doe all things which can prove him to be a kind and carefull nursing father. They account all that is vomited out to the contrarie, [as, that they liked Anarchie better then Monarchie and that they would turne a Kingdome into a democra<g ref="char:EOLhyphen"/>tie▪] to be but the fictions and calumnies of the malicious enemies of God and his truth; not unlike the lies which were devised against the Christians of old, their consciences, their words, writings, and actions, even then when the world did put the worst constructions upon them, were wit<g ref="char:EOLhyphen"/>nesses of the integritie of their hearts. Th<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y do still hold that there can be no antipathy betwixt one Ordinance of God and another. <hi>
+                  <gap reason="illegible" resp="#keyers" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> P<gap reason="illegible" resp="#keyers" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>es do reign,</hi> and h<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th also appoynted the Offic<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rs and he Government of his own house. They doe desire nothing m<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>re, then <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat the Son of God may reigne and tha<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> with and under the Son of God th King may command, and they, as good subjects to Christ and the King may obey.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
